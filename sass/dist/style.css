@@ -2,6 +2,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+a:hover {
+  font-weight: 600;
+}
+
 header {
   position: relative;
   height: 50px;
@@ -700,6 +704,14 @@ nav {
   .menu {
     width: 85%;
   }
+  .menu_item {
+    width: 100%;
+    text-align: center;
+    padding: 4px 0;
+  }
+  .menu_link {
+    display: block;
+  }
 
   .reasons {
     padding: 22px 0 36px 0;
@@ -792,6 +804,7 @@ nav {
   }
   .footer_wrapper div:nth-child(3) {
     order: 3;
+    justify-content: center;
   }
   .footer_nav_main_item {
     font-size: 15px;

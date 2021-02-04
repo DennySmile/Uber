@@ -2,10 +2,6 @@
   font-family: "Roboto", sans-serif;
 }
 
-a:hover {
-  font-weight: 600;
-}
-
 header {
   position: relative;
   height: 50px;
@@ -100,6 +96,7 @@ nav {
 .subheader_btn:hover {
   background-image: none;
   background-color: #1eacc7;
+  font-weight: 600;
 }
 
 .promo {
@@ -152,6 +149,7 @@ nav {
 .promo_btn:hover {
   background-image: none;
   background-color: #1eacc7;
+  font-weight: 600;
 }
 
 .reasons {
